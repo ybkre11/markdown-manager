@@ -1,0 +1,67 @@
+{
+  "name": "markdown-manager",
+  "version": "1.0.0",
+  "description": "Simple Markdown editor with .docx/.rtf conversion — perfect for AI knowledge bases",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-mac": "electron-builder --mac",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "docx",
+    "rtf",
+    "converter",
+    "knowledge-base",
+    "ai",
+    "claude",
+    "chatgpt",
+    "llm"
+  ],
+  "author": "Laurent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lolicht/markdown-manager.git"
+  },
+  "homepage": "https://github.com/Lolicht/markdown-manager",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "mammoth": "^1.6.0",
+    "marked": "^11.1.0"
+  },
+  "build": {
+    "appId": "com.markdown-manager.app",
+    "productName": "Markdown Manager",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "assets/icon.icns",
+      "target": ["dmg", "zip"],
+      "fileAssociations": [
+        {
+          "ext": "md",
+          "name": "Markdown Document",
+          "role": "Editor",
+          "icon": "assets/icon.icns"
+        },
+        {
+          "ext": "markdown",
+          "name": "Markdown Document",
+          "role": "Editor",
+          "icon": "assets/icon.icns"
+        }
+      ]
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "assets/**/*"
+    ]
+  }
+}

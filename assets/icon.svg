@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#gradient)"/>
+  
+  <!-- Document shape -->
+  <path d="M140 80h160l92 92v260c0 22-18 40-40 40H140c-22 0-40-18-40-40V120c0-22 18-40 40-40z" fill="white" fill-opacity="0.95"/>
+  
+  <!-- Folded corner -->
+  <path d="M300 80v52c0 22 18 40 40 40h52" fill="none" stroke="white" stroke-opacity="0.5" stroke-width="8"/>
+  <path d="M300 80l92 92h-52c-22 0-40-18-40-40V80z" fill="#e0e0e0"/>
+  
+  <!-- MD text -->
+  <text x="170" y="320" font-family="-apple-system, SF Pro Display, sans-serif" font-size="120" font-weight="700" fill="#0078d4">MD</text>
+  
+  <!-- Lines representing text -->
+  <rect x="140" y="360" width="160" height="12" rx="6" fill="#ccc"/>
+  <rect x="140" y="390" width="120" height="12" rx="6" fill="#ddd"/>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="512" y2="512">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+</svg>
