@@ -40,20 +40,17 @@
     "productName": "Markdown Manager",
     "mac": {
       "category": "public.app-category.productivity",
-      "icon": "assets/icon.icns",
       "target": ["dmg", "zip"],
       "fileAssociations": [
         {
           "ext": "md",
           "name": "Markdown Document",
-          "role": "Editor",
-          "icon": "assets/icon.icns"
+          "role": "Editor"
         },
         {
           "ext": "markdown",
           "name": "Markdown Document",
-          "role": "Editor",
-          "icon": "assets/icon.icns"
+          "role": "Editor"
         }
       ]
     },
